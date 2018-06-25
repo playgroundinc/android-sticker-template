@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_above="@id/logo_bar"
+        android:layout_marginTop="@dimen/ss_margin_top"
+        android:layout_marginRight="-25dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        >
+        <ImageView
+            android:id="@+id/mainImageView"
+            android:layout_width="@dimen/selected_sticker_size"
+            android:layout_height="@dimen/selected_sticker_size"
+            android:layout_marginRight="-5dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/faecface_01_2x"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/shareSticker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icn_sharefab_png"
+            android:theme="@style/MyFloatingButton"
+            android:layout_marginTop="@dimen/fab_margin_top"
+            android:layout_marginLeft="@dimen/fab_margin_left"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>

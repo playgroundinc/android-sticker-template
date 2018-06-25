@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/logo_bar"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/logo_margin_top"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:gravity="center_horizontal">
+    <ImageView
+        android:id="@+id/imageview_cover_art"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ff_logo_text"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"/>
+
+</LinearLayout>

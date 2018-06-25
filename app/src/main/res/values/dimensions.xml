@@ -1,0 +1,14 @@
+<resources>
+    <dimen name="selected_sticker_size">200dp</dimen>
+    <dimen name="ss_margin_top">30dp</dimen>
+
+    <dimen name="fab_margin_top">130dp</dimen>
+    <dimen name="fab_margin_left">0dp</dimen>
+
+    <dimen name="logo_margin_top">10dp</dimen>
+
+    <dimen name="gridview_sticker_size">120dp</dimen>
+    <dimen name="gridview_padding_top">15dp</dimen>
+    <dimen name="gridview_padding_right_left">15dp</dimen>
+    <dimen name="gridview_padding_bottom">20dp</dimen>
+</resources>

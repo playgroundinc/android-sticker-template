@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/whatever"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/white">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <include layout="@layout/logo_bar" />
+
+        <include layout="@layout/selected_sticker" />
+    </android.support.v7.widget.CardView>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:clipToPadding="false"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:columnWidth="@dimen/gridview_sticker_size"
+        android:gravity="fill"
+        android:paddingTop="@dimen/gridview_padding_top"
+        android:paddingBottom="@dimen/gridview_padding_bottom"
+        android:numColumns="@integer/number_of_columns"
+        android:padding="@dimen/gridview_padding_right_left"
+        android:stretchMode="spacingWidthUniform"
+        android:scrollbarStyle="outsideInset" />
+
+</LinearLayout>
