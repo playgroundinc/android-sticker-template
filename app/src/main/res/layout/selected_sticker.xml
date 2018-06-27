@@ -14,7 +14,7 @@
             android:layout_height="@dimen/selected_sticker_size"
             android:layout_marginRight="-5dp"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/faecface_01_2x"/>
+            android:src="@drawable/pg_logo_lightblue"/>
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/shareSticker"
