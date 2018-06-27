@@ -3,7 +3,6 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:layout_above="@id/logo_bar"
         android:layout_marginTop="@dimen/ss_margin_top"
         android:layout_marginRight="-25dp"
         xmlns:android="http://schemas.android.com/apk/res/android"
