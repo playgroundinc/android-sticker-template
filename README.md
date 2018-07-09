@@ -10,4 +10,4 @@ Pre-requisites
 
 Instructions
 ------------
-For swapping in your own stickers and getting this template up and running, follow the instructions [over here](https://medium.com/@katedee/making-a-simple-android-sticker-app-16537bb9c5a)
+To help you navigate this template, and get set up running this app with your own sticker, we've written a helpful article [over here](https://medium.com/@katedee/making-a-simple-android-sticker-app-16537bb9c5a)
