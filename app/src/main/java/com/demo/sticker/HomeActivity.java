@@ -17,6 +17,7 @@ import java.io.IOException;
 import android.graphics.BitmapFactory;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
+import android.widget.Toast;
 
 import com.demo.sticker.BuildConfig;
 
@@ -91,6 +92,8 @@ public class HomeActivity extends AppCompatActivity {
 
         } catch (IOException e) {
             e.printStackTrace();
+            Toast.makeText(this, "Failed to copy sticker", Toast.LENGTH_SHORT)
+                    .show();
         }
         File imagePath = new File(this.getCacheDir(), "images");
         File newFile = new File(imagePath, "image.png");

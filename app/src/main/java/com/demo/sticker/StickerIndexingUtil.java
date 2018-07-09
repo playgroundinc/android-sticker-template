@@ -56,6 +56,8 @@ public class StickerIndexingUtil {
             });
         } catch (IOException | FirebaseAppIndexingInvalidArgumentException e) {
             Log.e(TAG, "Unable to set stickers", e);
+            Toast.makeText(context, FAILED_TO_INSTALL_STICKERS, Toast.LENGTH_SHORT)
+                    .show();
         }
     }
 
