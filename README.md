@@ -1,6 +1,6 @@
 # Android Sticker Template
 
-This is the code used to make the [Faecface sticker pack](https://play.google.com/store/apps/details?id=com.faecface.sticker), which is an android sticker pack that can function on it's own, or index the stickers for use within gboard.
+This is the code used to make the [Faecface sticker pack](https://play.google.com/store/apps/details?id=com.faecface.sticker), which is an Android sticker pack that can function on it's own, or index the stickers for use within Gboard.
 
 Instructions
 ------------
